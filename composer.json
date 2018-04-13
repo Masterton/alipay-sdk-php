@@ -1,0 +1,26 @@
+{
+    "name": "masterton/alipay-sdk-php",
+    "description": "Alipay SDK for PHP",
+    "keywords": [ "Alipay", "sdk" ],
+    "type": "library",
+    "license": "MIT",
+    "homepage": "https://docs.open.alipay.com/54/103419/",
+    "authors": [
+        {
+            "name": "Masterton",
+            "homepage": "http://www.zhengss.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.0"
+    },
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "Alipay\\": "src/"
+        }
+    }
+}
